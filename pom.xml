@@ -32,9 +32,9 @@
   <url>https://wcm.io</url>
 
   <scm>
-    <connection>scm:git:https://github.com/wcm-io/wcm-io-tooling.git</connection>
-    <developerConnection>scm:git:https://github.com/wcm-io/wcm-io-tooling.git</developerConnection>
-    <url>https://github.com/wcm-io/wcm-io-tooling</url>
+    <connection>scm:git:https://github.com/wcm-io/io.wcm.maven.global-build-tools-mixin.git</connection>
+    <developerConnection>scm:git:https://github.com/wcm-io/io.wcm.maven.global-build-tools-mixin.git</developerConnection>
+    <url>https://github.com/wcm-io/io.wcm.maven.global-build-tools-mixin</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -227,26 +227,6 @@
               <releaseFinishMessage>Update for next development version @{version}</releaseFinishMessage>
               <releaseVersionUpdateMessage>Update for next development version @{version}</releaseVersionUpdateMessage>
             </commitMessages>
-            <gitFlowConfig>
-              <releaseBranchPrefix>release/${project.artifactId}-</releaseBranchPrefix>
-              <hotfixBranchPrefix>hotfix/${project.artifactId}-</hotfixBranchPrefix>
-              <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
-            </gitFlowConfig>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>external.atlassian.jgitflow</groupId>
-          <artifactId>jgitflow-maven-plugin</artifactId>
-          <version>1.0-m5.1</version>
-          <inherited>false</inherited>
-          <configuration>
-            <scmCommentPrefix xml:space="preserve">[jgitflow-maven-plugin] </scmCommentPrefix>
-            <eol>lf</eol>
-            <flowInitContext>
-              <releaseBranchPrefix>release/${project.artifactId}-</releaseBranchPrefix>
-              <hotfixBranchPrefix>hotfix/${project.artifactId}-</hotfixBranchPrefix>
-              <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
-            </flowInitContext>
           </configuration>
         </plugin>
 

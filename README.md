@@ -6,7 +6,7 @@
 Mixin that adds wcm.io default file header to cod templates.
 
 Documentation: https://wcm.io/tooling/maven/global-build-tools.html<br/>
-Issues: https://wcm-io.atlassian.net/browse/WTOOL<br/>
+Issues: https://github.com/wcm-io/io.wcm.maven.global-build-tools-mixin/issues<br/>
 Wiki: https://wcm-io.atlassian.net/wiki/<br/>
 Continuous Integration: https://github.com/wcm-io/io.wcm.maven.global-build-tools-mixin/actions<br/>
 Commercial support: https://wcm.io/commercial-support.html
